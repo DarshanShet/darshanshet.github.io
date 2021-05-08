@@ -482,6 +482,31 @@ h6 { font-size: 16px;}
   color: #000;
   box-sizing: border-box;
 }
+
+.experience ul {
+  line-height: 1.5em;
+  margin: 5px 0 15px;
+  padding: 0;
+}
+
+li.arrow {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 20px;
+}
+
+.experience li.arrow::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  height: 5px;
+  width: 5px;
+  border: 1px solid #2ACA3E;
+  border-width: 2px 2px 0 0;
+  transform: rotate(45deg);
+}
+
 /*
 .skills-heder {
 	margin: 10px;
